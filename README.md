@@ -6,6 +6,7 @@
 ## 프로젝트 소개
 
 react로 만든 간단한 토이 프로젝트입니다
+[바로가기](https://parkchowon.github.io/playground/)
 
 ### 조작방법
 
