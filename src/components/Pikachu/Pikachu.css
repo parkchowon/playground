@@ -1,0 +1,32 @@
+.pikachu-container {
+  width: 70px;
+  height: 70px;
+  background-image: url(../../img/walking.png);
+  background-size: cover;
+  position: absolute;
+  transition: all 0.2s;
+}
+
+@keyframes jumpR {
+  0% {
+    transform: translateY(0%) rotateY(0deg);
+  }
+  50% {
+    transform: translateY(-25%) rotateY(0deg);
+  }
+  100% {
+    transform: translateY(0%) rotateY(0deg);
+  }
+}
+
+@keyframes jumpL {
+  0% {
+    transform: translateY(0%) rotateY(180deg);
+  }
+  50% {
+    transform: translateY(-25%) rotateY(180deg);
+  }
+  100% {
+    transform: translateY(0%) rotateY(180deg);
+  }
+}
